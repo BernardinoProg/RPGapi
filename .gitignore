@@ -26,9 +26,17 @@ x86/
 [Ww][Ii][Nn]32/
 [Aa][Rr][Mm]/
 [Aa][Rr][Mm]64/
+<<<<<<< HEAD
 bld/
 [Bb]in/
 [Oo]bj/
+=======
+[Aa][Rr][Mm]64[Ee][Cc]/
+bld/
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+>>>>>>> a902eeb33e0744d6f778f8c17a9d83cfff74c379
 [Ll]og/
 [Ll]ogs/
 
@@ -355,6 +363,12 @@ ASALocalRun/
 # MSBuild Binary and Structured Log
 *.binlog
 
+<<<<<<< HEAD
+=======
+# AWS SAM Build and Temporary Artifacts folder
+.aws-sam
+
+>>>>>>> a902eeb33e0744d6f778f8c17a9d83cfff74c379
 # NVidia Nsight GPU debugger configuration file
 *.nvuser
 
